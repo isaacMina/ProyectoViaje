@@ -18,8 +18,8 @@ struct Viaje {
     int precio;
     int capacidad;
     int dia, mes, anio;
-    Pasajero pasajeros[5]; // Arreglo para almacenar hasta 5 pasajeros
-    int cantidadPasajeros = 0; // Variable para llevar la cuenta de pasajeros
+    Pasajero pasajeros[5];
+    int cantidadPasajeros = 0; 
 };
 
 struct nodo {
